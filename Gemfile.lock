@@ -1,0 +1,35 @@
+GEM
+  remote: https://RubyGems.org/
+  specs:
+    autoprefixer-rails (9.7.4)
+      execjs
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
+    execjs (2.7.0)
+    ffi (1.12.2)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.1.2)
+    rack-protection (2.0.8.1)
+      rack
+    ruby2_keywords (0.0.2)
+    sassc (2.2.1)
+      ffi (~> 1.9)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bootstrap-sass (~> 3.3, >= 3.3.6)
+  rack
+  sinatra
+
+BUNDLED WITH
+   1.17.2
